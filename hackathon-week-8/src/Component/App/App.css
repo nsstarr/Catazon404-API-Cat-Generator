@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+ h1 h2 h3 {
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  left: 80px;
+
+} 
+h1 {
+  font-size: 70px;
+  margin: auto;
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: rgb(62, 62, 62)
+}
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 60x;
+  font-weight: lighter;
+  margin: auto;
+  
+}
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: lighter;
+  margin: auto;
+  
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: auto;
+  padding: 30px;
+  width: 500px;
+  
+
+}
+.cat-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 650px;
+  padding: 20px;
+}
+.flex-container {
+
+
+}
+.button-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 260px;
+margin: auto
+
+}
+.cat-button {
+transition: all 0.3s ease 0s;
+margin: auto;
+cursor: pointer;
+}
+.save-button {
+transition: all 0.3s ease 0s;
+margin: auto;
+cursor: pointer;
+font-family: 'PT Sans', sans-serif;
+}
+.cat-button:hover {
+  background-color: #232F3E;
+  box-shadow: 0px 15px 20px #232F3E;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.save-button:hover {
+  background-color: #232F3E;
+  box-shadow: 0px 15px 20px #232F3E;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+#navBar {
+  background-color: #232F3E;
+  height: 100px;
+  color: white
+}
+
+#topHalf {
+  height: 50px;
+}
+
+#bottomHalf {
+  height: 50px
+}
+
+#logo {
+  height: 100px;
+  position: absolute;
+  top: -25px
+}
+
+#logoWrapper {
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  width: 150px;
+
+}
+
+input {
+  vertical-align: top;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 20px;
+  width: 500px;
+}
+
+#department {
+  font-size: 25px;
+  padding: 10px;
+  margin-left: 30px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px
+}
+
+#sections {
+  display: inline-block
+}
+
+.section {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 10px
+}
+
+#accountStuff {
+  display: inline-block;
+  float: right;
+  margin-right: 20px
+}

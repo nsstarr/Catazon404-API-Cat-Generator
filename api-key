@@ -1,0 +1,12 @@
+
+The Cat API - API Key
+
+Thanks for signing up, welcome to the The Cat API!
+
+Here's your API key:
+
+50ba1763-525c-4021-960f-0926e8b9c850
+
+Use it as the 'x-api-key' header when making any request to the API, or by adding as a query string parameter e.g. 'api_key=50ba1763-525c-4021-960f-0926e8b9c850'
+
+More details on authentication →push
